@@ -1,21 +1,18 @@
-<div class="home-container">
-  <div class="navbar-container">
-    <a href="#home">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#resume">Resume</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contacts</a>
-  </div>
-
-</div>
+<app-navbar></app-navbar>
 <div class="body-container">
   <div class="projects-container">
-    <span (click)="onClickEvent($event)" class="projects-container__title">Projects List</span>
+    <span>
+      <app-projects></app-projects>
+    </span>
   </div>
   <div class="skills-container">
-    <span (click)="onClickEvent($event)" class="skills-container__title">Skills List</span>
+    <span>
+      <app-skills></app-skills>
+    </span>
   </div>
   <div class="about-container">
-    <span (click)="onClickEvent($event)" class="about-container__title">About Content</span>
+    <span>
+      <app-contact-me></app-contact-me>
+    </span>
   </div>
 </div>

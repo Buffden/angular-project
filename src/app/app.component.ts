@@ -12,7 +12,4 @@ export class AppComponent implements OnInit {
 
   title = 'angular-project';
 
-  onClickEvent(event: any) {
-    console.log(event);
-  }
 }
