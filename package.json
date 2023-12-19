@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "e2e": "ng e2e",
-    "deploy": "ng deploy npx angular-cli-ghpages --dir=docs/angular-project"
+    "deploy": "ng deploy npx angular-cli-ghpages --dir=dist/angular-project"
   },
   "private": true,
   "dependencies": {
